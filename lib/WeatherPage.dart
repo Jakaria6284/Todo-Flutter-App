@@ -42,6 +42,7 @@ class _WeatherPageState extends State<WeatherPage> {
         child: Icon(Icons.place_outlined),
         onPressed: ()
         {
+
           createNewTask(context);
         },
       ),
